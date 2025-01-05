@@ -1,45 +1,52 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
   <!-- Bootstrap CSS -->
   <link
     href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
     rel="stylesheet"
-  >
+  />
 
   <!-- Font Awesome (for envelope, LinkedIn, GitHub icons) -->
   <link
     rel="stylesheet"
-    href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-    integrity="sha384-dyZtTurQ++v1M9pRKne3Xv3p1NlKn1i4Kc98lsR7w5IT9k9bBO8zX1SEHhpHfKr2"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6JC3AXfjB2m8k6Y3D91Gfa7pEvHbwoLZYuRnW4AwiTWZFcdxAT9fAmstS2szwj7t6F5Wb+z7j4l+YFdyBScQ=="
     crossorigin="anonymous"
-  >
+    referrerpolicy="no-referrer"
+  />
 
-  <!-- Academicons (for Google Scholar icon). Optional if you want a custom GScholar icon. 
-       Note: The 'ai ai-google-scholar' class is from Academicons, not Font Awesome. -->
+  <!-- Academicons (for Google Scholar icon) -->
   <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"
-  >
+  />
 
-  <link href="style.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="style.css" rel="stylesheet" />
+
   <title>Václav Knapp</title>
 </head>
 
 <body>
   <div class="intro px-3 py-3 pt-md-5 pb-md-4 mx-auto">
     <h1 class="display-6 text-center">Václav Knapp</h1>
+
     <div class="d-flex flex-wrap bd-highlight mb-3 my-3 justify-content-center">
+      <!-- Profile Picture -->
       <div class="p-2 order-1 bd-highlight">
         <img
           class="img-thumbnail"
           src="images/me.png"
           alt="Profile Picture"
           width="240px"
-        >
+        />
       </div>
+
+      <!-- Intro Text -->
       <div class="intro-text order-2 p-2 my-1 bd-highlight text-left">
         <p>
           I am a high school student at
@@ -55,8 +62,8 @@
           <a href="https://tzler.github.io" target="_blank">Tyler Bonnen</a>,
           <a href="https://brjathu.github.io" target="_blank">Jathusan Rajasegaran</a>, and
           <a href="https://neerja.me" target="_blank">Neerja Thakkar</a>.
-          My research explores the intersection of AI and neuroscience
-          and AI understanding of the world around us.
+          My research explores the intersection of AI and neuroscience,
+          and AI’s understanding of the world around us.
         </p>
 
         <p>
@@ -71,22 +78,28 @@
           <a
             href="https://scholar.google.cz/citations?user=2zBEXPoAAAAJ&hl=cs"
             target="_blank"
-          >Lukas Slodicka</a> at
+          >
+            Lukas Slodicka
+          </a>
+          at
           <a href="https://www.upol.cz/en/" target="_blank">Palacký University</a>,
-          where my work involves Ion Trap technologies. Soon, I plan
-          to expand this research at the
+          where my work involves Ion Trap technologies. Soon, I plan to expand
+          this research at the
           <a href="https://www.psi.ch/en" target="_blank">Paul Scherrer Institute (PSI)</a>
-          and <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a>.
+          and
+          <a href="https://ethz.ch/en.html" target="_blank">ETH Zurich</a>.
         </p>
 
-        <br>
+        <br />
 
         <!-- Social/Contact Icons -->
         <p class="text-center">
+          <!-- Envelope (mail) -->
           <a target="_blank" href="mailto:vasikknapp@gmail.com">
-            <i class="far fa-envelope"></i>
+            <i class="fa-regular fa-envelope"></i>
           </a>
-          &nbsp; <!-- simple spacing -->
+          &nbsp; 
+          <!-- Google Scholar -->
           <a
             target="_blank"
             href="https://scholar.google.com/citations?user=Qo7eNPEAAAAJ&hl=cs&oi=ao"
@@ -94,15 +107,20 @@
             <i class="ai ai-google-scholar"></i>
           </a>
           &nbsp;
+          <!-- LinkedIn -->
           <a
             target="_blank"
             href="https://www.linkedin.com/in/václav-knapp-7696b624a/"
           >
-            <i class="fab fa-linkedin"></i>
+            <i class="fa-brands fa-linkedin"></i>
           </a>
           &nbsp;
-          <a target="_blank" href="https://github.com/VaclavKnapp">
-            <i class="fab fa-github"></i>
+          <!-- GitHub -->
+          <a
+            target="_blank"
+            href="https://github.com/VaclavKnapp"
+          >
+            <i class="fa-brands fa-github"></i>
           </a>
         </p>
       </div>
@@ -110,6 +128,7 @@
   </div>
 
   <div class="container">
+    <!-- Publications Section -->
     <a name="publications"></a>
     <h2 class="display-7 mb-2 text-center">Selected Publications</h2>
     <p class="text-center">
@@ -122,9 +141,9 @@
       </a>
       for the full list of publications.
     </p>
-    <br>
+    <br />
 
-    <!-- Example publication card -->
+    <!-- Example Publication Card -->
     <div class="card-deck mb-3">
       <div class="card mb-2 shadow-sm">
         <div class="card-body p-2 d-flex flex-wrap">
@@ -133,7 +152,11 @@
               target="_blank"
               href="https://github.com/matyasbohacek/assets2024-demo?tab=readme-ov-file"
             >
-              <img src="images/ASSETS.png" alt="" width="100%">
+              <img
+                src="images/ASSETS.png"
+                alt=""
+                width="100%"
+              />
             </a>
           </div>
           <div class="p-2 order-2 bd-highlight paper">
@@ -172,38 +195,37 @@
     </div>
 
     <!-- MEDIA COVERAGE SECTION -->
-    <hr class="my-5">
+    <hr class="my-5" />
     <h2 class="display-7 mb-4 text-center">Media Coverage</h2>
-    <div class="row">
-      <!-- Example Card 1 -->
-      <div class="col-md-4 mb-3">
-        <div class="card shadow-sm h-100">
+
+    <!-- Horizontal Card 1 -->
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4">
           <img
-            src="images/cc.png"
-            class="card-img-top"
-            alt="He started taking courses at world universities in elementary school. At 17, he's exploring how to replicate human consciousness with artificial intelligence"
-          >
+          src="images/cc.png"
+          class="card-img-top"
+          alt="He started taking courses at world universities in elementary school. At 17, he's exploring how to replicate human consciousness with artificial intelligence"
+          />
+        </div>
+        <div class="col-md-8">
           <div class="card-body d-flex flex-column">
             <h5 class="card-title">He started taking courses at world universities in elementary school. At 17, he's exploring how to replicate human consciousness with artificial intelligence</h5>
             <p class="card-text">
-              Article about my work for CzechCrunch (very popular Czech Tech magazine) 
+                Article about my work for CzechCrunch (very popular Czech Tech magazine) 
             </p>
             <a
-              href="https://cc.cz/s-kurzy-svetovych-univerzit-zacal-na-zakladce-v-17-zkouma-jak-s-umelou-inteligenci-replikovat-lidske-vedomi/"
+              href="https://link-to-article1.com"
               target="_blank"
-              class="mt-auto btn btn-primary"
+              class="btn btn-primary mt-auto"
             >
-              Read Article
+              Read Article here (only in Czech language)
             </a>
           </div>
         </div>
       </div>
-    </div>
-    <!-- END MEDIA COVERAGE SECTION -->
-
+    </div>  
   </div>
-
 </body>
 </html>
-
 
